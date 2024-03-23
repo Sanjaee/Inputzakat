@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #013d3b;
+  color: white;
+}
+.link-delete {
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #45a049;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.link-kembali {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #45a049;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.containerInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: white;
+}
+input,
+select {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.dashboard-container {
+  margin: 20px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+img {
+  position: fixed;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -100;
+}
+.img_botom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: -100;
+}
+
+.dashboard-title h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.dashboard-title h1:hover {
+  color: black;
+}
+
+.dashboard-title p {
+  color: #c89428;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #393e46;
+  color: #f2f2f2;
+}
+
+.dashboard-table th:hover {
+  background-color: #f2f2f2;
+  color: #393e46;
+}
+
+.dashboard-table td {
+  font-weight: 700;
+  /* background-color: #f2f2f2; */
+}
+
+.dashboard-table tr:hover td {
+  background-color: rgb(187, 187, 187);
+  color: #393e46;
+}
+.edit-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #013d3b;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.cancel-button {
+  background-color: #f50057;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.delete-button {
+  background-color: #f50057;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+  gap: 10px;
+}
